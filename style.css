@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    max-width: 100%;
+    height: 120px;
+    
+}
+
+
+
+#logo{
+    float: left;
+    color: #f6bf16;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70px;
+    padding: 20px;
+}
+
+ul{
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 33%;
+  
+    
+}
+
+li{
+    margin-top: 50px;
+    float: left;
+    list-style: none;
+    padding-left: 40px;
+}
+
+#delivery{
+   background-color:#f6bf16 ;
+   padding: 2px 50px 2px; 
+   position: relative;
+   left: 20px;
+   border-radius: 5px;
+
+}
+
+#delivery:hover{
+    background-color:white ;
+    border: 1px double black;
+    border-radius: 5px;
+
+}
+
+.banner{
+    background-color: black;
+}
+
+.fundo{
+    background-image: url("./imagens/cozinheiro.jpg");
+    height: 820px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 50%;
+}
+
+
+.containerbanner{
+    max-width: 600px;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    
+}
+
+.containerbanner h2{
+    font-size:50px;
+    color: #f6bf16;
+    text-align: left;
+    float: left;
+}
+
+.containerbanner p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
